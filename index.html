@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcastové Studio | Kompletní Výbava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">Podcast Studio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Úvod</a></li>
+                <li><a href="#overview">Přehled</a></li>
+                <li><a href="#equipment">Výbava</a></li>
+                <li><a href="#summary">Souhrn</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Kompletní řešení</div>
+            <h1 class="hero-title">
+                <span class="line">Podcastové</span>
+                <span class="line accent">Studio</span>
+            </h1>
+            <p class="hero-subtitle">
+                Profesionální výbava pro nahrávání podcastů ve špičkové kvalitě.
+                Od kamery přes osvětlení až po zvukovou techniku.
+            </p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">12</span>
+                    <span class="stat-label">Položek</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">245K</span>
+                    <span class="stat-label">Kč celkem</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Kamery</span>
+                </div>
+            </div>
+            <a href="#equipment" class="cta-button">
+                Prohlédnout výbavu
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                </svg>
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="overview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Přehled</span>
+                <h2 class="section-title">Co všechno potřebujete</h2>
+                <p class="section-desc">
+                    Kompletní sestava profesionálního vybavení rozdělená do logických kategorií
+                </p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card" data-category="cameras">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="6" width="18" height="12" rx="2"/>
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M8 6L9 4h6l1 2"/>
+                        </svg>
+                    </div>
+                    <h3>Kamery & Optika</h3>
+                    <p>3× tělo Sony A7 IV + objektivy pro víceúhlové natáčení</p>
+                    <div class="category-count">4 položky</div>
+                </div>
+                <div class="category-card" data-category="lighting">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 18h6M10 22h4M12 2v1M12 7a5 5 0 100 10 5 5 0 000-10z"/>
+                        </svg>
+                    </div>
+                    <h3>Osvětlení</h3>
+                    <p>Profesionální LED světla Amaran pro dokonalé nasvícení scény</p>
+                    <div class="category-count">2 položky</div>
+                </div>
+                <div class="category-card" data-category="audio">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3z"/>
+                            <path d="M19 10v2a7 7 0 01-14 0v-2M12 19v3"/>
+                        </svg>
+                    </div>
+                    <h3>Zvuk</h3>
+                    <p>Bezdrátové mikrofony Comica VM40 s příslušenstvím</p>
+                    <div class="category-count">2 položky</div>
+                </div>
+                <div class="category-card" data-category="switcher">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M6 8h4M6 12h4M6 16h4M14 8h4M14 12h4M14 16h4"/>
+                        </svg>
+                    </div>
+                    <h3>Mixážní pult</h3>
+                    <p>Blackmagic ATEM Mini Pro ISO pro live střih a nahrávání</p>
+                    <div class="category-count">1 položka</div>
+                </div>
+                <div class="category-card" data-category="mounts">
+                    <div class="category-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22V12M12 12L5 5M12 12l7-7M5 12h14"/>
+                        </svg>
+                    </div>
+                    <h3>Držáky & Stojany</h3>
+                    <p>Stropní mounty, stativy a uchycení pro světla i mikrofony</p>
+                    <div class="category-count">3 položky</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="equipment">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Výbava</span>
+                <h2 class="section-title">Kompletní seznam vybavení</h2>
+                <p class="section-desc">
+                    Každá položka byla pečlivě vybrána pro maximální kvalitu a spolehlivost
+                </p>
+            </div>
+
+            <div class="equipment-filters">
+                <button class="filter-btn active" data-filter="all">Všechno</button>
+                <button class="filter-btn" data-filter="cameras">Kamery</button>
+                <button class="filter-btn" data-filter="lighting">Světla</button>
+                <button class="filter-btn" data-filter="audio">Audio</button>
+                <button class="filter-btn" data-filter="switcher">Switcher</button>
+                <button class="filter-btn" data-filter="mounts">Držáky</button>
+            </div>
+
+            <div class="equipment-grid">
+                <!-- Cameras -->
+                <div class="equipment-card" data-category="cameras">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <rect x="3" y="6" width="18" height="12" rx="2"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Hlavní kamera</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Kamera</span>
+                            <span class="card-qty">2 ks</span>
+                        </div>
+                        <h3 class="card-title">Sony A7 IV</h3>
+                        <p class="card-desc">Profesionální full-frame mirrorless tělo pro špičkovou obrazovou kvalitu</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">57 400 Kč</span>
+                            </div>
+                            <a href="https://panamoz.com/gb/sony-alpha-a7-iv-mirrorless-digital-camera-body.html" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 114 800 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="cameras">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Center kamera</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Objektiv</span>
+                            <span class="card-qty">1 ks</span>
+                        </div>
+                        <h3 class="card-title">Viltrox 20mm f/2.8</h3>
+                        <p class="card-desc">Širokoúhlý objektiv pro centrální kameru s výbornou ostrostí</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">3 900 Kč</span>
+                            </div>
+                            <a href="https://foto.bazos.cz/inzerat/217488080/viltrox-af-20mm-f28-fe-sony-e.php" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 3 900 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="cameras">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Side kamera #1</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Objektiv</span>
+                            <span class="card-qty">1 ks</span>
+                        </div>
+                        <h3 class="card-title">Sony FE 50mm f/1.8</h3>
+                        <p class="card-desc">Standardní objektiv pro boční kameru s krásným rozostřením pozadí</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">3 000 Kč</span>
+                            </div>
+                            <a href="https://foto.bazos.cz/inzerat/218173460/sony-fe-50mm-f18.php" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 3 000 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="cameras">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M12 2v2M12 20v2M2 12h2M20 12h2"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Side kamera #2</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Objektiv</span>
+                            <span class="card-qty">1 ks</span>
+                        </div>
+                        <h3 class="card-title">Sony FE 50mm f/1.8</h3>
+                        <p class="card-desc">Druhý standardní objektiv pro druhou boční kameru</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">3 700 Kč</span>
+                            </div>
+                            <a href="https://foto.bazos.cz/inzerat/217946504/sony-fe-50mm-f18mm.php" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 3 700 Kč</div>
+                    </div>
+                </div>
+
+                <!-- Lighting -->
+                <div class="equipment-card" data-category="lighting">
+                    <div class="card-image">
+                        <div class="card-image-placeholder lighting-glow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M9 18h6M10 22h4M12 2v1M12 7a5 5 0 100 10 5 5 0 000-10z"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Hlavní světlo</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Osvětlení</span>
+                            <span class="card-qty">2 ks</span>
+                        </div>
+                        <h3 class="card-title">Amaran Halo 300x</h3>
+                        <p class="card-desc">Bicolor COB světlo 276W, 2700-6500K pro flexibilní nasvícení</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">7 769 Kč</span>
+                            </div>
+                            <a href="https://www.profilmare.cz/p/amaran-halo-300x-bicolor-cob-svetlo-276w-2700-6500k" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 15 538 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="lighting">
+                    <div class="card-image">
+                        <div class="card-image-placeholder lighting-glow accent">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M9 18h6M10 22h4M12 2v1M12 7a5 5 0 100 10 5 5 0 000-10z"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Rim light</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Osvětlení</span>
+                            <span class="card-qty">1 ks</span>
+                        </div>
+                        <h3 class="card-title">Amaran 300c</h3>
+                        <p class="card-desc">RGB LED světlo pro kreativní rim light efekty a barevné nasvícení</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">10 889 Kč</span>
+                            </div>
+                            <a href="https://www.profilmare.cz/p/amaran-300c-grey-eu-version" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 10 889 Kč</div>
+                    </div>
+                </div>
+
+                <!-- Audio -->
+                <div class="equipment-card" data-category="audio">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3z"/>
+                                <path d="M19 10v2a7 7 0 01-14 0v-2M12 19v3"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Mikrofon set</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Audio</span>
+                            <span class="card-qty">2 ks</span>
+                        </div>
+                        <h3 class="card-title">Comica VM40</h3>
+                        <p class="card-desc">Superkardioidní bezdrátový mikrofon s přijímačem pro čistý zvuk</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">6 490 Kč</span>
+                            </div>
+                            <a href="https://www.film-technika.com/smerove-studio-mikrofony/comica-audio-super-kardioidni-mikrofon-vm40-s-prijimacem--rx-/" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 12 980 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="audio">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <rect x="6" y="4" width="12" height="16" rx="2"/>
+                                <path d="M12 8v8M9 11h6"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Příslušenství</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Audio</span>
+                            <span class="card-qty">2 ks</span>
+                        </div>
+                        <h3 class="card-title">SmallRig Shock Mount</h3>
+                        <p class="card-desc">Odpružený držák mikrofonu pro kamery a boom póly</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">250 Kč</span>
+                            </div>
+                            <a href="https://www.megapixel.cz/smallrig-microphone-shock-mount-for-camera-shoes-and-boompoles-1859" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 500 Kč</div>
+                    </div>
+                </div>
+
+                <!-- Switcher -->
+                <div class="equipment-card" data-category="switcher">
+                    <div class="card-image">
+                        <div class="card-image-placeholder switcher-glow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M6 8h4M6 12h4M6 16h4M14 8h4M14 12h4M14 16h4"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Live switcher</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Switcher</span>
+                            <span class="card-qty">1 ks</span>
+                        </div>
+                        <h3 class="card-title">Blackmagic ATEM Mini Pro ISO</h3>
+                        <p class="card-desc">4kanálový live produkční switcher s nahráváním ISO a streamováním</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">13 490 Kč</span>
+                            </div>
+                            <a href="https://www.syntex.cz/blackmagic-design-atem-mini-pro-iso" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 13 490 Kč</div>
+                    </div>
+                </div>
+
+                <!-- Mounts -->
+                <div class="equipment-card" data-category="mounts">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="12" cy="5" r="3"/>
+                                <path d="M12 8v8M9 16l-3 6M15 16l3 6"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Uchycení světla</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Držák</span>
+                            <span class="card-qty">3 ks</span>
+                        </div>
+                        <h3 class="card-title">Baby Plate 16mm</h3>
+                        <p class="card-desc">Nástěnný držák s 16mm otočným spigotem pro světla</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">1 072 Kč</span>
+                            </div>
+                            <a href="https://www.profilmare.cz/p/baby-plate-with-16mm-swivel-spigot" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 3 216 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="mounts">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Stropní mount</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Držák</span>
+                            <span class="card-qty">2 ks</span>
+                        </div>
+                        <h3 class="card-title">Wall Mount</h3>
+                        <p class="card-desc">Stropní / nástěnný mount pro pevné uchycení vybavení</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">1 090 Kč</span>
+                            </div>
+                            <a href="https://www.film-technika.com/stativy-pro-svetla-a-blesky/stativ-na-strop-nebo-do-zdi--wall-mount/" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 2 180 Kč</div>
+                    </div>
+                </div>
+
+                <div class="equipment-card" data-category="mounts">
+                    <div class="card-image">
+                        <div class="card-image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M12 22V12M12 12L5 5M12 12l7-7"/>
+                            </svg>
+                        </div>
+                        <div class="card-badge">Stativ</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span class="card-category">Stativ</span>
+                            <span class="card-qty">3 ks</span>
+                        </div>
+                        <h3 class="card-title">SmallRig Tripod AD-50 Lite</h3>
+                        <p class="card-desc">Lehký video stativový kit pro stabilní natáčení</p>
+                        <div class="card-footer">
+                            <div class="card-price">
+                                <span class="price-label">za kus</span>
+                                <span class="price-value">2 861 Kč</span>
+                            </div>
+                            <a href="https://www.syntex.cz/smallrig-lightweight-video-tripod-kit-ad-50-lite-4684-4684" target="_blank" rel="noopener" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="card-total">Celkem: 8 583 Kč</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section id="summary" class="summary">
+        <div class="container">
+            <div class="summary-card">
+                <div class="summary-content">
+                    <span class="section-tag">Souhrn</span>
+                    <h2 class="section-title">Celková investice</h2>
+                    <div class="total-price">245 776 Kč</div>
+                    <p class="summary-desc">
+                        Kompletní profesionální výbava pro podcastové studio s možností
+                        víceúhlového natáčení, kvalitního osvětlení a čistého zvuku.
+                    </p>
+                    <div class="summary-breakdown">
+                        <div class="breakdown-item">
+                            <span class="breakdown-dot" style="background: #6366f1;"></span>
+                            <span class="breakdown-label">Kamery & Optika</span>
+                            <span class="breakdown-value">125 400 Kč</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-dot" style="background: #f59e0b;"></span>
+                            <span class="breakdown-label">Osvětlení</span>
+                            <span class="breakdown-value">26 427 Kč</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-dot" style="background: #10b981;"></span>
+                            <span class="breakdown-label">Zvuk</span>
+                            <span class="breakdown-value">13 480 Kč</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-dot" style="background: #ec4899;"></span>
+                            <span class="breakdown-label">Switcher</span>
+                            <span class="breakdown-value">13 490 Kč</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-dot" style="background: #8b5cf6;"></span>
+                            <span class="breakdown-label">Držáky & Stojany</span>
+                            <span class="breakdown-value">13 979 Kč</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-visual">
+                    <div class="chart-container">
+                        <svg viewBox="0 0 200 200" class="donut-chart">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#1e1b4b" stroke-width="20"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#6366f1" stroke-width="20" 
+                                stroke-dasharray="314 502" stroke-dashoffset="0" stroke-linecap="round"
+                                transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#f59e0b" stroke-width="20" 
+                                stroke-dasharray="66 502" stroke-dashoffset="-314" stroke-linecap="round"
+                                transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#10b981" stroke-width="20" 
+                                stroke-dasharray="34 502" stroke-dashoffset="-380" stroke-linecap="round"
+                                transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#ec4899" stroke-width="20" 
+                                stroke-dasharray="34 502" stroke-dashoffset="-414" stroke-linecap="round"
+                                transform="rotate(-90 100 100)"/>
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#8b5cf6" stroke-width="20" 
+                                stroke-dasharray="35 502" stroke-dashoffset="-448" stroke-linecap="round"
+                                transform="rotate(-90 100 100)"/>
+                        </svg>
+                        <div class="chart-center">
+                            <span class="chart-total">245K</span>
+                            <span class="chart-label">Kč</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">◈</span>
+                    <span>Podcast Studio</span>
+                </div>
+                <p class="footer-text">
+                    Profesionální výbava pro podcastové studio. Data aktuální k dubnu 2026.
+                </p>
+            </div>
+            <div class="footer-bottom">
+                <p>Vytvořeno na základě Excel přehledu — všechna data zachována</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
